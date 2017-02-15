@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">App</string>
+    <string name="strLogin">Login</string>
+    <string name="strSenha">Senha</string>
+    <string name="strLogar">Logar</string>
+    <string name="strSmsSusseco">Login com Susseço</string>
+    <string name="strSmsFalha">"Login ou senha invalido "</string>
 </resources>
