@@ -34,5 +34,9 @@ public class MainActivity extends AppCompatActivity {
         }else{
             Toast.makeText(this, getString(R.string.strSmsFalha), Toast.LENGTH_SHORT).show();
         }
-        }//Logar
+    }//Logar
+    public void cadastrar(View v){
+        Intent chamaCadastro = new Intent(this, CadastroActivity.class);
+        startActivity(chamaCadastro);
+    }
 }//Main

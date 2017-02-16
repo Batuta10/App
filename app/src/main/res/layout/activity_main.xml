@@ -11,6 +11,13 @@
     tools:context="br.com.fiap.app.MainActivity"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/key"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,7 +26,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edtLogin"/>
+        android:id="@+id/edtLogin"
+        android:singleLine="true"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,11 +37,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:id="@+id/edtSenha"/>
+        android:id="@+id/edtSenha"
+        android:drawableLeft="@drawable/lock"
+        android:singleLine="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/strLogar"
+        android:layout_weight="1"
         android:id="@+id/btnLogar"
-        android:onClick="logar"/>
+        android:onClick="logar"
+        android:drawableLeft="@drawable/lock"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCadastra"
+        android:layout_weight="1"
+        android:id="@+id/btnCadastra"
+        android:drawableLeft="@drawable/user"
+        android:onClick="cadastrar"/>
+    </LinearLayout>
 </LinearLayout>
