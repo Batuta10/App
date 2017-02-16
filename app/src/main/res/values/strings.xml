@@ -11,4 +11,6 @@
     <string name="strSalvar">Salvar</string>
     <string name="strCancelar">Cancelar</string>
     <string name="strTitleCadastro">Cadastro</string>
+    <string name="strMasculino">Masculino</string>
+    <string name="strFeminino">Feminino</string>
 </resources>

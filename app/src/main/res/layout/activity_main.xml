@@ -58,7 +58,7 @@
         android:text="@string/btnCadastra"
         android:layout_weight="1"
         android:id="@+id/btnCadastra"
-        android:drawableLeft="@drawable/user"
+        android:drawableLeft="@drawable/userplus"
         android:onClick="cadastrar"/>
     </LinearLayout>
 </LinearLayout>
